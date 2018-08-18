@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani');
+
+table{
+    width: 60vw;
+    height: 60vh;
+    margin: 0 auto;
+    background-color: gray;
+    font-family: 'Rajdhani', sans-serif;
+}
