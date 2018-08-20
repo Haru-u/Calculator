@@ -1,9 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Rajdhani');
 
 table{
-    width: 60vw;
-    height: 60vh;
+    width: 20vw;
+    height: 50vh;
     margin: 0 auto;
     background-color: gray;
     font-family: 'Rajdhani', sans-serif;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+table, td{
+   border: 1px solid black;
+}
+
+td {
+    width: 50px;
+height: 40px;
+}
+
+#zero1st{
+text-align: right;
+font-size: 3rem;
+color: white;
 }
