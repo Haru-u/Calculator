@@ -1,27 +1,43 @@
 @import url('https://fonts.googleapis.com/css?family=Rajdhani');
 
+/*
+orange - #FFA334
+grey - #888888
+light grey - #D3D3D3
+*/
+
 table{
     width: 20vw;
     height: 50vh;
     margin: 0 auto;
-    background-color: gray;
+    background-color: #D3D3D3;
     font-family: 'Rajdhani', sans-serif;
     border-collapse: collapse;
     text-align: center;
     font-size: 1.5em;
+    color: #424242;
 }
 
 table, td{
-   border: 1px solid black;
+   border: 1px solid #888888;
 }
+
+table tr td:hover{
+  background-color:#888888;
+  }
 
 td {
     width: 50px;
-height: 40px;
+    height: 40px;
+}
+
+.last{
+  background-color: #FFA334;
 }
 
 #zero1st{
 text-align: right;
 font-size: 3rem;
 color: white;
+background-color: gray;
 }
